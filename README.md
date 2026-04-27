@@ -13,6 +13,12 @@ O objetivo deste repositório é apresentar, de forma prática e organizada, tr�
 Cada padrão possui seu próprio diretório com código-fonte, exemplo de uso e explicação básica.
 
 ---
+# Aplicação do Design Pattern FACADE
+
+Esse é apenas um exemplo prático de como identificar e aplicar o padrão de projeto *Facade*.
+Simulamos nesse exemplo um pedaço de um Sistema de Controle de Clientes em que teria algumas classes de controle para: Avatar, Envio de Email, Banco de Dados, Documentos, etc.
+
+Nesse projeto estamos utilizando a linguagem TypeScript e execução através do Deno porém o conceito pode ser aplicado a qualquer linguagem com suporte ao paradigma de orientação a objetos.
 
 ## Estrutura do repositório
 
