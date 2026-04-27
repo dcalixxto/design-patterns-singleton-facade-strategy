@@ -27,7 +27,16 @@ Cada padrão possui seu próprio diretório com código-fonte, exemplo de uso e 
 │
 ├── facade/
 │   └── src/
-│       └── Main.java
+│       └── main.ts
+│       └── models/
+│           └── cliente.ts
+│           └── client-avatar.ts
+│           └── cliente-documentos.ts
+│           └── cliente-email.ts
+│           └── cliente-historico-acesso.ts
+│           └── cliente-service.ts
+│       └── facade/
+│           └── cliente-facade.ts
 │
 └── strategy/
     └── src/
