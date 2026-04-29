@@ -19,8 +19,11 @@ Cada pasta concentra o codigo-fonte do respectivo exemplo.
 |-- README.md
 |-- .gitignore
 |-- singleton/
+|   |-- pom.xml
 |   `-- src/
-|       `-- Main.java
+|       `-- example/
+|           |-- GerenciadorConexao.java
+|           `-- Main.java
 |-- facade/
 |   `-- src/
 |       |-- main.ts
@@ -81,11 +84,18 @@ Estrategias e classes de apoio:
 
 ### Singleton
 
-O diretorio `singleton/src` contem o arquivo:
+O exemplo em `singleton/src/example` demonstra o padrao Singleton aplicado a um gerenciador de conexao com inicializacao unica da instancia.
 
-- `singleton/src/Main.java`
+Arquivos do modulo:
 
-No estado atual do repositorio, esse arquivo esta vazio e ainda nao possui implementacao do exemplo.
+- `singleton/pom.xml`
+- `singleton/src/example/GerenciadorConexao.java`
+- `singleton/src/example/Main.java`
+
+Arquivos gerados em compilacao:
+
+- `singleton/target/classes/org/example/GerenciadorConexao.class`
+- `singleton/target/classes/org/example/Main.class`
 
 ## Integrantes do grupo
 
